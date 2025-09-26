@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primárias -->
+    <color name="colorPrimary">#3700B3</color> <!-- mantém destaque -->
+    <color name="colorOnPrimary">#000000</color>
+
+    <!-- Fundo -->
+    <color name="colorBackground">#121212</color>
+    <color name="colorOnBackground">#FFFFFF</color>
+
+    <!-- Header / BottomNav -->
+    <color name="colorHeader">#1E1E1E</color>
+    <color name="colorOnHeader">#FFFFFF</color>
+
+    <!-- Superfícies -->
+    <color name="colorSurface">#1E1E1E</color>
+    <color name="colorOnSurface">#FFFFFF</color>
+
+    <!-- Texto secundário -->
+    <color name="colorSecondaryText">#AAAAAA</color>
+
+    <!-- Erro -->
+    <color name="colorError">#CF6679</color>
+    <color name="colorOnError">#000000</color>
+</resources>

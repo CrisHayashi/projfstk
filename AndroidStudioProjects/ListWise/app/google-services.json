@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "522305019233",
+    "project_id": "listwise-app",
+    "storage_bucket": "listwise-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:522305019233:android:ec8789054357def9e6b920",
+        "android_client_info": {
+          "package_name": "com.example.listwise"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBU0UCiEshkdRIqZQJKdTA7k3d4MJ063cQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

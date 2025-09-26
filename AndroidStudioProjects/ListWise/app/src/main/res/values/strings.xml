@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ListWise</string>
+    <string name="email_hint">E-mail</string>
+    <string name="password_hint">Senha</string>
+    <string name="login">Entrar</string>
+    <string name="sign_up">Cadastrar</string>
+</resources>

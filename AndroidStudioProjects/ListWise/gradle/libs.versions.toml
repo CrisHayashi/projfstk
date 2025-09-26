@@ -1,0 +1,106 @@
+[versions]
+# Android Gradle Plugin / Kotlin
+agp = "8.13.0"
+kotlin = "2.0.21"
+
+# Android SDK
+compileSdk = "36"
+minSdk = "24"
+targetSdk = "36"
+
+# AndroidX Core
+coreKtx = "1.13.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.9.2"
+constraintlayout = "2.2.0"
+
+# Lifecycle / Navigation
+lifecycle = "2.8.6"
+navigation = "2.8.3"
+
+# Room
+room = "2.6.1"
+
+# Firebase
+firebaseBom = "33.3.0"
+
+# Google Play Services
+maps = "19.0.0"
+location = "21.3.0"
+ads = "23.3.0"
+
+# ZXing
+zxing = "4.3.0"
+zxingCore = "3.5.2"
+
+# Retrofit / OkHttp
+retrofit = "2.11.0"
+okhttp = "4.12.0"
+
+# Glide
+glide = "4.16.0"
+
+# Testes
+junit = "4.13.2"
+androidxJunit = "1.2.1"
+espresso = "3.6.1"
+
+# Code Quality
+detekt = "1.23.6"
+ktlint = "12.1.0"
+activityVersion = "1.11.0"
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
+google-services = { id = "com.google.gms.google-services", version = "4.4.2" }
+detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt" }
+ktlint = { id = "org.jlleitschuh.gradle.ktlint", version.ref = "ktlint" }
+
+[libraries]
+# AndroidX
+androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "coreKtx" }
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
+material = { module = "com.google.android.material:material", version.ref = "material" }
+androidx-activity = { module = "androidx.activity:activity-ktx", version.ref = "activity" }
+androidx-constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
+androidx-lifecycle-runtime-ktx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycle" }
+androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycle" }
+androidx-navigation-fragment-ktx = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "navigation" }
+androidx-navigation-ui-ktx = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "navigation" }
+
+# Room
+room-runtime = { module = "androidx.room:room-runtime", version.ref = "room" }
+room-ktx = { module = "androidx.room:room-ktx", version.ref = "room" }
+room-compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
+
+# Firebase
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebase-auth = { module = "com.google.firebase:firebase-auth-ktx" }
+firebase-database = { module = "com.google.firebase:firebase-database-ktx" }
+
+# Google APIs
+play-services-maps = { module = "com.google.android.gms:play-services-maps", version.ref = "maps" }
+play-services-location = { module = "com.google.android.gms:play-services-location", version.ref = "location" }
+play-services-ads = { module = "com.google.android.gms:play-services-ads", version.ref = "ads" }
+
+# ZXing
+zxing-android = { module = "com.journeyapps:zxing-android-embedded", version.ref = "zxing" }
+zxing-core = { module = "com.google.zxing:core", version.ref = "zxingCore" }
+
+# Retrofit / OkHttp
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+retrofit-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
+okhttp-logging = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "okhttp" }
+
+# Glide
+glide-library = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+glide-compiler = { module = "com.github.bumptech.glide:compiler", version.ref = "glide" }
+
+# Testes
+junit = { module = "junit:junit", version.ref = "junit" }
+androidx-junit = { module = "androidx.test.ext:junit", version.ref = "androidxJunit" }
+espresso-core = { module = "androidx.test.espresso:espresso-core", version.ref = "espresso" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activityVersion" }
